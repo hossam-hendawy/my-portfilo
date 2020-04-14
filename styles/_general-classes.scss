@@ -1,0 +1,122 @@
+@import "grid.css";
+
+* {
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 400ms;
+  
+}
+
+.primary-btn {
+  width: 166px;
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: $neutral-color;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: $poppins;
+  position: relative;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  
+  &:hover {
+    box-shadow: 0 20px 20px 0 rgba(132, 144, 255, .3);
+  }
+  
+}
+
+.text {
+  color: $primary-color;
+  font-family: $poppins;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: uppercase;
+  outline: none;
+  
+}
+
+h1, h2, h6 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: $primary-color;
+  font-family: $Playfair;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 43px;
+  
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 16px;
+  font-family: $poppins;
+  
+}
+
+p {
+  color: $secondary-color;
+  font-family: $poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  opacity: 0.86;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.nicescroll-cursors {
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  
+}
