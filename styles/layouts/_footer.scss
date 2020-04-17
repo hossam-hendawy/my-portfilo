@@ -10,6 +10,7 @@ footer {
     justify-content: space-between;
     @media (max-width: 400.98px) {
       padding: 30px 0 20px;
+      margin-top: 50px;
     }
     
     h2 {
@@ -33,7 +34,7 @@ footer {
       }
     }
     
-    h3, p {
+    h3, p ,.text {
       color: #000000;
       font-family: $roboto;
       font-size: 14px;
@@ -46,7 +47,7 @@ footer {
       
     }
     
-    p {
+    p,.text {
       margin-bottom: 10px;
       @media (max-width: 575.98px) {
         padding: 0 20px;
