@@ -42,7 +42,7 @@ img {
 }
 
 .primary-btn {
-  padding: 8px 15px;
+  padding: 12px 15px;
   border: none;
   color: #FFF;
   display: block;
@@ -313,6 +313,7 @@ footer section.footer-content h3, footer section.footer-content p, footer sectio
   font-weight: 500;
   letter-spacing: -0.21px;
   line-height: 24px;
+  text-transform: none;
 }
 @media (max-width: 400px) {
   footer section.footer-content h3, footer section.footer-content p, footer section.footer-content .text {
@@ -327,18 +328,18 @@ footer section.footer-content p, footer section.footer-content .text {
     padding: 0 20px;
   }
 }
-footer section.footer-content .Contact, footer section.footer-content .about, footer section.footer-content .follow-me {
+footer section.footer-content .contact, footer section.footer-content .about, footer section.footer-content .follow-me {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 @media (max-width: 874.98px) {
-  footer section.footer-content .Contact, footer section.footer-content .about, footer section.footer-content .follow-me {
+  footer section.footer-content .contact, footer section.footer-content .about, footer section.footer-content .follow-me {
     margin-bottom: 30px;
   }
 }
 @media (max-width: 575.98px) {
-  footer section.footer-content .Contact, footer section.footer-content .about, footer section.footer-content .follow-me {
+  footer section.footer-content .contact, footer section.footer-content .about, footer section.footer-content .follow-me {
     text-align: center;
     align-items: center;
   }
@@ -395,9 +396,6 @@ footer section.footer-content .follow-me .links a div.circle.instagram:hover:bef
 }
 footer section.footer-content .follow-me .links a div.circle.twitter:hover {
   background-color: #1da1f2;
-}
-footer section.footer-content .follow-me .links a div.circle.linkedin-in:hover {
-  background-color: #0073b0;
 }
 footer section.footer-content .follow-me .links a div.circle i {
   position: absolute;
